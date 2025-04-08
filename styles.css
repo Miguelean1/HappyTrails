@@ -1,6 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
     /*iniciamos a cero para eliminar los estilos propios de cada
     navegador*/
+    font-family: Jaldi;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgb(138, 43, 226);
+    
+    color: white;
+}
+.navbar .logo {
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks li{
+    display: inline;
+}
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    cursor: crosshair;
+    
+}
+
+.navLinks a:hover {
+    color: greenyellow;
+    font-size: 25px;
+}
+
+.buttons button {
+    padding: 8px 16px;
+    border: none;
+    cursor: crosshair;
+   font-size: 16px;
+   border-radius: 20px;
+}
+
+.login {
+    background: grey;
+    color:white;
+    font-weight: bold;
+   
+}
+
+.login:hover {
+background: black;
+color: greenyellow;
+}
+
+.signUp {
+background: grey;
+color: white;
+font-weight: bold;
+}
+
+.signUp:hover {
+    background: black;
+    color: greenyellow;
 }

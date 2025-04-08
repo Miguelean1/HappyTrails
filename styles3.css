@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Helvetica, monospace;
+}
+
+.header{
+margin: center;
+position: sticky;
+top: 0;
+background-color: rgba(0, 255, 255, 0.527);
+color: rgb(227, 99, 99);
+padding: 1rem 2rem;
+z-index: 999;
+backdrop-filter: blur(8px);
+box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.container{
+
+padding: 2rem;
+background: linear-gradient(#f0f0f0, #cccc);
+min-height: 2000px;
+}
