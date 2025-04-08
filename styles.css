@@ -16,7 +16,7 @@
     color: white;
 }
 .navbar .logo {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     
 
@@ -66,10 +66,37 @@ color: greenyellow;
 .signUp {
 background: grey;
 color: white;
+
 font-weight: bold;
 }
 
 .signUp:hover {
     background: black;
     color: greenyellow;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+.left a, .right a {
+    text-decoration: none;
+}
+
+.right {
+    justify-content: flex-end;
+}
+.copyright {
+    margin: 0 20px;
+} 
+.icon {
+    width: 30px;
 }
