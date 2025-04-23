@@ -18,10 +18,8 @@ h2 {
 
 }
 
-
-
 p.description {
-    text-align: left;
+    text-align: center;
     max-width: 100%; /* mejor usar porcentajes */
     line-height: 1.2;
     margin-bottom: 20px;
@@ -33,6 +31,7 @@ p.description {
     background-color: rgb(154, 114, 114);
     color: black;
     align-items: center; /*no funciona */
+    align-content: center;
     padding: 10px 20px;
     border: none;
     text-decoration: none;  
@@ -54,22 +53,27 @@ p.description {
     border: 1px solid black;
     padding: 20px;
     border-radius: 8px;
+    text-align: center;
 }
 
 .cardHeader {
-    align-content: center;  /*no funciona */
+    text-align: center;
 }
 
 .card img {
 
 
 }
+
+.cardButton{
+    align-content: center;
+}
 .card:hover {
 background-color: rgb(98, 248, 5);
 }
 
 .card h3 {
-    text-align: left;
+    text-align: center;
     margin: 10px 0;
 }
 
@@ -84,17 +88,7 @@ background-color: rgb(98, 248, 5);
     clear: both;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    
-    color: black;
-    width: 100%;
-    margin: 0px; /* hace que cubra todo el ancho, pero falla*/
-    background: linear-gradient(bisque, rgb(194, 165, 165));
-}
+
 
 .navbar.logo {
     font-size: 24px;
@@ -109,7 +103,7 @@ footer {
 
 .credit {
     text-align: center;
-
+   
     font-size: 10px;
     margin-top: 8px;
     margin-bottom: 5px;
@@ -117,7 +111,33 @@ footer {
 
     
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 0px; /* hace que cubra todo el ancho, pero falla*/
+    background: linear-gradient(bisque, rgb(194, 165, 165));
+}
+
+.SecondFooter {
+    background: rgb(194, 165, 165);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  
+
+}
 
 .copyright {
-    margin-left: 0px;
+    text-align: center;
+    background-color: bisque;
+    align-items: center; /*no funciona*/
+    border: rgb(167, 159, 159) 5px none; /*No funciona*/
+   
+    
 }
+

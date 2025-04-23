@@ -130,17 +130,21 @@
             </a>
         
         </div>
-        <div class="copyright">
-           &copy; 2025 Happy Trips <br>Todos los derechos reservados.</br>
-        </div>
+        
         <div class="right">
-            <span>THETROONSYT</span>
+            <span>@HappyTrips</span>
             <a href="#" target="_blank">
                 <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fes%2Fsearch%2Fimages%3Fk%3Dyoutube%2Blogo&psig=AOvVaw1peMPYCaw8BqqknvI-qOhS&ust=1745482329332000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiWu8Pa7YwDFQAAAAAdAAAAABAE" alt="Logo de Youtube" class="icon"> 
             </a>
         </div>
-        
             </footer>
+
+            <footer class="SecondFooter">
+                <div class="copyright">
+                     &copy; 2025 Happy Trips <br>Todos los derechos reservados.</br>
+                </div>
+            </footer>
+
             <div class ="credit">Powered by <b>Mike</b></div>
             
 </body>
