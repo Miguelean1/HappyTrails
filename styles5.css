@@ -1,0 +1,69 @@
+body {
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+    background-color: bisque;
+    color: black;
+}
+
+h1 {
+    text-align: left;
+    font-size: 89px;
+    margin-bottom: 10px;
+
+}
+
+p.description {
+    text-align: left;
+    max-width: 600px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.mainButton {
+    display: inline-block;
+    background-color: rgb(154, 114, 114);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;  
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+
+.card {
+    background-color: rgb(194, 165, 165);
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card img {
+
+
+}
+
+.card h3 {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .cardButton {
+    float: center;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.card p {
+    clear: both;
+}

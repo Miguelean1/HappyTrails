@@ -20,7 +20,14 @@ position: relative;
     font-size: 24px;
     font-weight: bold;
 }
-
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
 .search {
     position: absolute;
     right: 30px;
