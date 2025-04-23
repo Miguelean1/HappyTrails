@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesFE.css">
+    <title>Document</title>
+</head>
+<body>
+    <head></head>
+    <main>
+        <section>
+            <h2>Viajes gastronómicos</h2>
+            <p class="description">
+                Comer nose que  y no se cuantos.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis magnam cumque velit neque harum,
+                impedit rem laboriosam. Officiis, corrupti nihil dolorum ex,
+                recusandae repudiandae nesciunt quisquam dolorem
+                 nemo harum vero?Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Facilis magnam cumque velit neque harum,
+                 impedit rem laboriosam. Officiis, corrupti nihil dolorum ex,
+                 recusandae repudiandae nesciunt quisquam dolorem
+                  nemo harum vero?
+            </p>
+            <a href="#" class= "mainButton">Organiza tu viaje</a>
+            <div class="cardContainer">
+                <div class="card">
+                    <img src="" alt="Destino 1">
+                    <div class="cardHeader">
+                        <h3>Corea del Sur</h3>
+                        <button class="cardButton">➕</button>
+                    </div>
+                    <p>
+                        Dejarse llevar por la intensa gastronomía 
+                        coreana en una masterclass privada.
+                         Seguir las instrucciones y la receta de platos 
+                    </p> 
+                    </div>
+                    <div class="card">
+                        <img src="" alt="Destino 2">
+                        <div class="cardHeader">
+                            <h3>Corea del Norte</h3>
+                            <button class="cardButton">➕</button>
+                        </div>
+                        <p>
+                            Dejarse llevar por la intensa gastronomía 
+                            coreana en una masterclass privada.
+                             Seguir las instrucciones y la receta de platos 
+                        </p> 
+                        </div>
+                        <div class="card">
+                            <img src="" alt="Destino 3">
+                            <div class="cardHeader">
+                                <h3>Corea del Este</h3>
+                                <button class="cardButton">➕</button>
+                            </div>
+                            <p>
+                                Dejarse llevar por la intensa gastronomía 
+                                coreana en una masterclass privada.
+                                 Seguir las instrucciones y la receta de platos 
+                            </p> 
+                            </div>
+                            <div class="card">
+                                <img src="" alt="Destino 4">
+                                <div class="cardHeader">
+                                    <h3>Corea del Oeste</h3>
+                                    <button class="cardButton">➕</button>
+                                </div>
+                                <p>
+                                    Dejarse llevar por la intensa gastronomía 
+                                    coreana en una masterclass privada.
+                                     Seguir las instrucciones y la receta de platos 
+                                </p> 
+                                </div>
+                                <div class="card">
+                                    <img src="" alt="Destino 5">
+                                    <div class="cardHeader">
+                                        <h3>Corea del Medio</h3>
+                                        <button class="cardButton">➕</button>
+                                    </div>
+                                    <p>
+                                        Dejarse llevar por la intensa gastronomía 
+                                        coreana en una masterclass privada.
+                                         Seguir las instrucciones y la receta de platos 
+                                    </p> 
+                                    </div>
+                                    <div class="card">
+                                        <img src="" alt="Destino 6">
+                                        <div class="cardHeader">
+                                            <h3>Corea de Abajo</h3>
+                                            <button class="cardButton">➕</button>
+                                        </div>
+                                        <p>
+                                            Dejarse llevar por la intensa gastronomía 
+                                            coreana en una masterclass privada.
+                                             Seguir las instrucciones y la receta de platos 
+                                        </p> 
+                                        </div>
+                                        <div class="card">
+                                            <img src="" alt="Destino 7">
+                                            <div class="cardHeader">
+                                                <h3>Corea de Arriba</h3>
+                                                <button class="cardButton">➕</button>
+                                            </div>
+                                            <p>
+                                                Dejarse llevar por la intensa gastronomía 
+                                                coreana en una masterclass privada.
+                                                 Seguir las instrucciones y la receta de platos 
+                                            </p> 
+                                            </div>
+                                            <div class="card">
+                                                <img src="" alt="Destino 8">
+                                                <div class="cardHeader">
+                                                    <h3>Coria del Rio</h3>
+                                                    <button class="cardButton">➕</button>
+                                                </div>
+                                                <p>
+                                                    Dejarse llevar por la intensa gastronomía 
+                                                    coreana en una masterclass privada.
+                                                     Seguir las instrucciones y la receta de platos 
+                                                </p> 
+                                                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="left">
+            <a href="#direccion de Instagram" target="_blank">
+                <img src="https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2016/05/11/160511143151_instagram_nuevo_logo_640x360_instagram_nocredit.jpg.webp" alt="Logo de Instagram"  class="icon"> 
+            </a>
+        
+        </div>
+        <div class="copyright">
+           &copy; 2025 Happy Trips <br>Todos los derechos reservados.</br>
+        </div>
+        <div class="right">
+            <span>THETROONSYT</span>
+            <a href="#" target="_blank">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fes%2Fsearch%2Fimages%3Fk%3Dyoutube%2Blogo&psig=AOvVaw1peMPYCaw8BqqknvI-qOhS&ust=1745482329332000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiWu8Pa7YwDFQAAAAAdAAAAABAE" alt="Logo de Youtube" class="icon"> 
+            </a>
+        </div>
+        
+            </footer>
+            <div class ="credit">Powered by <b>Mike</b></div>
+            
+</body>
+</html>
