@@ -124,17 +124,15 @@
         </section>
     </main>
     <footer>
-        <div class="left">
-            <a href="#direccion de Instagram" target="_blank">
-                <img src="https://ichef.bbci.co.uk/ace/ws/640/amz/worldservice/live/assets/images/2016/05/11/160511143151_instagram_nuevo_logo_640x360_instagram_nocredit.jpg.webp" alt="Logo de Instagram"  class="icon"> 
-            </a>
-        
-        </div>
+       
         
         <div class="right">
-            <span>@HappyTrips</span>
+            <span>Youtube @HappyTrips</span>
+            <span>Instagram@HappyTrips</span>
+            
             <a href="#" target="_blank">
-                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fes%2Fsearch%2Fimages%3Fk%3Dyoutube%2Blogo&psig=AOvVaw1peMPYCaw8BqqknvI-qOhS&ust=1745482329332000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiWu8Pa7YwDFQAAAAAdAAAAABAE" alt="Logo de Youtube" class="icon"> 
+                <img src="" 
+                alt="Logo de Youtube" class="icon"> 
             </a>
         </div>
             </footer>
