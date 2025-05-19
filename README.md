@@ -1,5 +1,5 @@
 
-**"Happy Travel.Fakest destinies, realest code"**
+
 
 
 Welcome to my first "serious" project in HTML. The idea was to fork a Figma (from Doña Paloma, our teacher), and to try and give it some unique vibes.
@@ -10,4 +10,4 @@ All the info is fake; not serious, and the destinies too. But the code is real. 
 
 
 
-
+**"Happy Travel.Fakest destinies, realest code"**

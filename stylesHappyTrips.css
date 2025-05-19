@@ -17,7 +17,7 @@ body {
 }
 .container {
     max-width: 90%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 20px;
 }
 .navbar {
@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: rgb(255, 101, 227);
+    background-color: rgb(194, 165, 165);
     color: white;
     position: relative;
     }
@@ -50,19 +50,19 @@ body {
         }
 .search::placeholder {
     background: black;
-     color: greenyellow;
+     color: rgb(0, 0, 0);
         
         }
        
         
 .search input::placeholder {
-     color: rgb(255, 0, 0);
+     color: rgb(198, 190, 190);
     font-style: italic;
         }
         
  .fa-solid {
     margin-left: 5px;
-     color: orange;
+     color: rgb(0, 0, 0);
     
         }
         
@@ -78,17 +78,17 @@ body {
     left: 0;
     width: 100%;
     height: 3px;
-    background-color:aquamarine;
+    background-color:rgb(182, 190, 188);
     }
     main {
-        padding: 40 px 0;
+        padding: 40px 0;
     }
     section {
         text-align: center;
     }
 h1 {
     text-align: left;
-    font-size: 89px;
+    font-size: 45px;
     margin-bottom: 10px;
 
 }
@@ -102,16 +102,16 @@ h2 {
 
 .description {
     text-align: center;
-    max-width: 100%; /* mejor usar porcentajes */
+    max-width: 100%; 
     font-size: 16px;
     color: #555;
-   margin: 0 30px;
+   margin: 0 auto 30px;
 }
 
 .mainButton {
     display: inline-block;
     background-color: rgb(154, 114, 114);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border: none;
     text-decoration: none;  
@@ -127,7 +127,7 @@ h2 {
 
 .cardContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     padding: 20px;
     margin-bottom: 40px;
@@ -149,10 +149,11 @@ h2 {
     height: 170px;
     object-fit: cover;
     background-color: #eeee;
+    border-radius: 8px;
 
 }
 .cardContent{
-padding:20px;
+padding: 20px;
 }
 .cardHeader {
     display:flex;
@@ -162,11 +163,12 @@ padding:20px;
 }
 .card h3 {
     font-size: 20px;
-    margin: 10px 0;
+    margin: 0;
 }
 
 .cardButton{
-    background-color: white;
+    display: flex;
+    background-color: rgb(194, 165, 165);;
     border: none;
     width: 30px;
     height: 30px;
@@ -175,7 +177,7 @@ padding:20px;
     align-content: center;
 }
 .cardButton:hover {
-background-color: rgb(98, 248, 5);
+background-color: #d8b9b9;
 }
 
 
@@ -188,15 +190,22 @@ background-color: rgb(98, 248, 5);
 
 
 
-.Topfooter {
+.TopFooter {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
     padding: 20px;
     color: rgb(0, 0, 0);
-    background: linear-gradient(bisque, rgb(194, 165, 165));
+    background: linear-gradient(to bottom, rgb(249, 246, 242), bisque);
 
+}
+.social-links {
+    display:flex;
+    justify-content:center;
+    gap: 30px;
+    margin-bottom: 20px;
 }
 .link{
     display:flex;
@@ -214,18 +223,53 @@ background-color: rgb(98, 248, 5);
     background-color: #333;
     border-radius: 50%;
 }
-.BottomFooter {
-    background: rgb(194, 165, 165);
-   padding: 15px;
-    text-align: center;
-  
-
+.emailPublicList {
+    position: relative;
+    display: inline-block;
+}
+.email-icon {
+    font-size: 40px;
+    cursor:pointer;
+    color: #333;
+}
+.emailForm{
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    display:none;
+    flex-direction:row;
+    align-items: center;
+    gap: 10px;
+}
+.emailPublicList .emailForm {
+    display: flex;
+}
+.emailForm input[type="email"]{
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.emailForm button {
+    padding: 6px 12px;
+    background-color: #0077cc;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.emailForm button:hover {
+    background-color: #005fa3;
+}
+.emailPublicList:hover .email-icon {
+    color: #0077cc
 }
 .copyright {
-    background-color: bisque;
-    display: inline-block;
+    background: linear-gradient(rgb(246, 237, 227), bisque);
+    display: center;
+    text-align: center;
     padding: 8px 15px;
     border-radius: 5px;
+    margin-top: 15px;
     
 }
 .credit {
@@ -233,8 +277,8 @@ background-color: rgb(98, 248, 5);
     font-size: 12px;
     padding: 10px 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #777;
-    
+    color: rgb(0, 0, 0);
+    background: linear-gradient(bisque, rgb(194, 165, 165));
 }
 
 
