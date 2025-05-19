@@ -227,10 +227,19 @@ background-color: #d8b9b9;
     position: relative;
     display: inline-block;
 }
+.emailCheck {
+
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
 .email-icon {
     font-size: 40px;
     cursor:pointer;
     color: #333;
+    display: inline-block;
 }
 .emailForm{
     position: absolute;
@@ -241,8 +250,11 @@ background-color: #d8b9b9;
     align-items: center;
     gap: 10px;
 }
-.emailPublicList .emailForm {
+.emailCheck:checked ~ .emailForm {
     display: flex;
+}
+.emailCheck:checked ~ .emailIconLabel .email-icon {
+    color: #0077cc;
 }
 .emailForm input[type="email"]{
     padding: 6px;
@@ -262,6 +274,9 @@ background-color: #d8b9b9;
 }
 .emailPublicList:hover .email-icon {
     color: #0077cc
+}
+.emailIconLabel {
+    
 }
 .copyright {
     background: linear-gradient(rgb(246, 237, 227), bisque);
