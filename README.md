@@ -23,12 +23,12 @@ All the info is fake; not serious, and the destinies too. But the code is real. 
 
 ## **Screenshots** 📸
 
-![siteLogo]()
-![siteLogo])
-![siteLogo]()
-![siteLogo]()
-![siteLogo]()
-![siteLogo]()
+![siteLogo](https://res.cloudinary.com/dhhxrrgut/image/upload/v1747756572/ht1_kvcioi.png)
+![siteLogo](https://res.cloudinary.com/dhhxrrgut/image/upload/v1747756572/ht2_lhhhbs.png)
+![siteLogo](https://res.cloudinary.com/dhhxrrgut/image/upload/v1747756572/ht3_lz0yey.png)
+![siteLogo](https://res.cloudinary.com/dhhxrrgut/image/upload/v1747756572/ht4_pgmtzg.png)
+![siteLogo](https://res.cloudinary.com/dhhxrrgut/image/upload/v1747756571/ht6_gkkml2.png)
+![siteLogo](https://res.cloudinary.com/dhhxrrgut/image/upload/v1747756571/ht5_yaigyq.png)
 
 ## Stacks ⚙️
 
