@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,254 +8,267 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>HappyTravel</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-    <div class="logo">
-    <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747730077/Logo_1_1_viixpn.png" alt="Logo de Happy Trips">
-    </div>
-    <div class="search">
-        <input type="text" placeholder="Introduce tu destino soñado">
-        <i class="fa-solid fa-search"></i>
-    </div>
+            <div class="logo">
+                <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747730077/Logo_1_1_viixpn.png"
+                    alt="Logo de Happy Trips">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Introduce tu destino soñado">
+                <i class="fa-solid fa-search"></i>
+            </div>
 
-    <div class="navbarIcons">
-        <i class="fa-solid fa-house"></i>
-        <i class="fa-solid fa-plus"></i>
-        <i class="fa-solid fa-user"></i>
-    </div>
-</nav>
-</header>
+            <div class="navbarIcons">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </nav>
+    </header>
     <main>
-       <div class="container">
-        <section>
-            <h2>Descubre otra manera de viajar</h2>
-            <p class="description">
+        <div class="container">
+            <section>
+                <h2>Descubre otra manera de viajar</h2>
+                <p class="description">
                     ¿Quieres conocer algunos de los destinos favoritos de nuestros usuarios?
                     Consulta nuestras postales para descubrir los mejores sitios que puedes
                     descubrir. O si prefieres montarte tu propia escapada, accede a nuestro formulario
-                    de organización de viajes. Elige destino, forma de acceso, época del año...si tú no 
+                    de organización de viajes. Elige destino, forma de acceso, época del año...si tú no
                     tienes límites, no somos nosotros quiénes vayamos a ponértelos.
-            </p>
-            <input type="checkbox" id="searchFormToggle" class ="formToggle">
-            <label for="searchFormToggle" class ="mainButton">Planifica tu aventura</label>
+                </p>
+                <input type="checkbox" id="searchFormToggle" class="formToggle">
+                <label for="searchFormToggle" class="mainButton">Planifica tu aventura</label>
                 <div class="searchFormContainer">
-                <form action="#" method="POST" class="searchForm">
-                <h3>Planifica tu aventura</h3>
-                <div class="formGroup">
-                <label for="destination">Destino:</label>
-                <input type="text" id="destination" name="destination" placeholder="=¿A dónde quieres ir?" required>
-                </div>
-                <div class="formGroup">
-                    <label for="dates">Fechas:</label>
-                     <div class="dateInputs">
-                <input type="date" id="startDate" name="startDate" required>
-                <span>hasta</span>
-                <input type="date" id="endDate" name="endDate" required>
-            </div>
-        </div>
-
-             <div class="formGroup">
-            <label for="travelers">Viajeros:</label>
-            <select id="travelers" name="travelers" required>
-                <option value="" disabled selected>Selecciona</option>
-                <option value="1">1 persona</option>
-                <option value="2">2 personas</option>
-                <option value="3">3 personas</option>
-                <option value="4">4 personas</option>
-                <option value="5+">5 o más personas</option>
-            </select>
-        </div>
-        
-        <div class="formGroup">
-            <label for="transport">Transporte:</label>
-            <div class="transportOptions">
-
-                <input type="radio" id="plane" name="transport" value="plane">
-                <label for="plane"><i class="fa-solid fa-plane"></i> Avión</label>
-                
-                <input type="radio" id="train" name="transport" value="train">
-                <label for="train"><i class="fa-solid fa-train"></i> Tren</label>
-                
-                <input type="radio" id="car" name="transport" value="car">
-                <label for="car"><i class="fa-solid fa-car"></i> Coche</label>
-                
-                <input type="radio" id="boat" name="transport" value="boat">
-                <label for="boat"><i class="fa-solid fa-ship"></i> Barco</label>
-
-                <input type="radio" id="dragon" name="transport" value="dragon">
-                <label for="dragon"><i class="fa-solid fa-dragon"></i> Dragón</label>
-
-                <input type="radio" id="broom" name="transport" value="broom">
-                <label for="broom"><i class="fa-solid fa-broom"></i> Escoba voladora</label>
-
-                <input type="radio" id="port" name="transport" value="port">
-                <label for="port"><i class="fa-solid fa-fire-flame-curved"></i></i> Teletransporte</label>
-
-            </div>
-        </div>
-
-        <div class="formActions">
-            <button type="submit" class="submitButton">Buscar opciones</button>
-            <label for="searchFormToggle" class="cancelButton">Cancelar</label>
-            </div>
-            </form>
-            </div>
-
-
-            <div class="cardContainer">
-                <div class="card">
-                    <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672316/cielo_liyyki.jpg" alt="Destino 1">
-                    <div class="cardContent">
-                        <div class="cardHeader">
-                        <h3>El cielo</h3>
-                    </div>
-                    <p>
-                       Paz eterna, luz infinita y felicidad sin límites. 
-                       Un lugar donde todo es amor y nada duele.
-                    </p> 
-                    </div>
-                    <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
-                    <button class="cardButton"><i class="fa-solid fa-check"></i></button>
-                    </div>
-                    <div class="card">
-                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672404/infierno_1_ghpbga.jpg" alt="Destino 2">
-                         <div class="cardContent">
-                        <div class="cardHeader">
-                            <h3>El infierno</h3>   
+                    <form action="#" method="POST" class="searchForm">
+                        <h3>Planifica tu aventura</h3>
+                        <div class="formGroup">
+                            <label for="destination">Destino:</label>
+                            <input type="text" id="destination" name="destination" placeholder="=¿A dónde quieres ir?"
+                                required>
                         </div>
-                        <p>
-                            Pasión ardiente, caos y fuego. Como Sevilla en Agosto, pero sin Cruzcampo.
-                        </p> 
+                        <div class="formGroup">
+                            <label for="dates">Fechas:</label>
+                            <div class="dateInputs">
+                                <input type="date" id="startDate" name="startDate" required>
+                                <span>hasta</span>
+                                <input type="date" id="endDate" name="endDate" required>
+                            </div>
+                        </div>
+
+                        <div class="formGroup">
+                            <label for="travelers">Viajeros:</label>
+                            <select id="travelers" name="travelers" required>
+                                <option value="" disabled selected>Selecciona</option>
+                                <option value="1">1 persona</option>
+                                <option value="2">2 personas</option>
+                                <option value="3">3 personas</option>
+                                <option value="4">4 personas</option>
+                                <option value="5+">5 o más personas</option>
+                            </select>
+                        </div>
+
+                        <div class="formGroup">
+                            <label for="transport">Transporte:</label>
+                            <div class="transportOptions">
+
+                                <input type="radio" id="plane" name="transport" value="plane">
+                                <label for="plane"><i class="fa-solid fa-plane"></i> Avión</label>
+
+                                <input type="radio" id="train" name="transport" value="train">
+                                <label for="train"><i class="fa-solid fa-train"></i> Tren</label>
+
+                                <input type="radio" id="car" name="transport" value="car">
+                                <label for="car"><i class="fa-solid fa-car"></i> Coche</label>
+
+                                <input type="radio" id="boat" name="transport" value="boat">
+                                <label for="boat"><i class="fa-solid fa-ship"></i> Barco</label>
+
+                                <input type="radio" id="dragon" name="transport" value="dragon">
+                                <label for="dragon"><i class="fa-solid fa-dragon"></i> Dragón</label>
+
+                                <input type="radio" id="broom" name="transport" value="broom">
+                                <label for="broom"><i class="fa-solid fa-broom"></i> Escoba voladora</label>
+
+                                <input type="radio" id="port" name="transport" value="port">
+                                <label for="port"><i class="fa-solid fa-fire-flame-curved"></i></i>
+                                    Teletransporte</label>
+
+                            </div>
+                        </div>
+
+                        <div class="formActions">
+                            <button type="submit" class="submitButton">Buscar opciones</button>
+                            <label for="searchFormToggle" class="cancelButton">Cancelar</label>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="cardContainer">
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672316/cielo_liyyki.jpg"
+                            alt="Destino 1">
+                        <div class="cardContent">
+                            <div class="cardHeader">
+                                <h3>El cielo</h3>
+                            </div>
+                            <p>
+                                Paz eterna, luz infinita y felicidad sin límites.
+                                Un lugar donde todo es amor y nada duele.
+                            </p>
                         </div>
                         <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
                         <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672404/infierno_1_ghpbga.jpg"
+                            alt="Destino 2">
+                        <div class="cardContent">
+                            <div class="cardHeader">
+                                <h3>El infierno</h3>
+                            </div>
+                            <p>
+                                Pasión ardiente, caos y fuego. Como Sevilla en Agosto, pero sin Cruzcampo.
+                            </p>
                         </div>
-                        <div class="card">
-                            <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672592/valhalla_1_h7sl0j.jpg" alt="Destino 3">
-                            <div class="cardContent">
+                        <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
+                        <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672592/valhalla_1_h7sl0j.jpg"
+                            alt="Destino 3">
+                        <div class="cardContent">
                             <div class="cardHeader">
                                 <h3>Valhalla</h3>
                             </div>
                             <p>
                                 Gloria nórdica tras la batalla.
                                 Se come bien y el paisaje es bonito, aunque hace frío.
-                            </p> 
+                            </p>
+                        </div>
+                        <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
+                        <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672591/matrix_1_ihov4p.jpg"
+                            alt="Destino 4">
+                        <div class="cardContent">
+                            <div class="cardHeader">
+                                <h3>Fuera de Matrix</h3>
                             </div>
-                            <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
-                            <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                            <p>
+                                La verdad está ahí, solo tienes que atreverte.
+                                Mucho turismo cultural, y muy barato en esta época del año.
+                            </p>
+                        </div>
+                        <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
+                        <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672592/purgatorio_1_xhluml.jpg"
+                            alt="Destino 5">
+                        <div class="cardContent">
+                            <div class="cardHeader">
+                                <h3>Purgatorio católico</h3>
+
                             </div>
-                            <div class="card">
-                                <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672591/matrix_1_ihov4p.jpg" alt="Destino 4">
-                                <div class="cardContent">
-                                <div class="cardHeader">
-                                    <h3>Fuera de Matrix</h3>
-                                </div>
-                                <p>
-                                   La verdad está ahí, solo tienes que atreverte. 
-                                   Mucho turismo cultural, y muy barato en esta época del año.
-                                </p> 
-                                </div>
-                                <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
-                                <button class="cardButton"><i class="fa-solid fa-check"></i></button>
-                                </div>
-                                <div class="card">
-                                    <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672592/purgatorio_1_xhluml.jpg" alt="Destino 5">
-                                     <div class="cardContent">
-                                    <div class="cardHeader">
-                                        <h3>Purgatorio católico</h3>
-                                        
-                                    </div>
-                                    <p>
-                                        Tranquilidad al máximo nivel.
-                                         Ni muy bien, ni muy mal, ni muy...nada. 
-                                    </p> 
-                                    </div>
-                                    <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
-                                    <button class="cardButton"><i class="fa-solid fa-check"></i></button>
-                                    </div>
-                                    <div class="card">
-                                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672773/Hogwarts_gd0etk.jpg" alt="Destino 6">
-                                         <div class="cardContent">
-                                        <div class="cardHeader">
-                                            <h3>Hogwarts</h3>
-                                        </div>
-                                        <p>
-                                           Destino estudiantil, compatible con programa de becas Erasmus. 
-                                        </p> 
-                                        </div>
-                                        <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
-                                        <button class="cardButton"><i class="fa-solid fa-check"></i></button>
-                                        </div>
-                                        <div class="card">
-                                            <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672839/Rivendel_i5m5xf.jpg" alt="Destino 7">
-                                             <div class="cardContent">
-                                            <div class="cardHeader">
-                                                <h3>Rivendel</h3>
-                                            </div>
-                                            <p>
-                                               Tranquilidad y naturaleza al sudeste de la Comarca. 
-                                               Destino predilecto para despedidas de solter@.
-                                            </p> 
-                                            </div>
-                                            <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
-                                            <button class="cardButton"><i class="fa-solid fa-check"></i></button>
-                                            </div>
-                                            <div class="card">
-                                                <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1743501947/cld-sample-2.jpg" alt="Destino 8">
-                                                 <div class="cardContent">
-                                                <div class="cardHeader">
-                                                    <h3>Aquí cerquita</h3>
-                                                </div>
-                                                <p>
-                                                    Pues que te voy a decir que no sepas. 
-                                                    Casi siempre lo bueno está a la mano.
-                                                </p> 
-                                                </div>
-                                                <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
-                                                <button class="cardButton"><i class="fa-solid fa-check"></i></button>
-                                                </div>
-                                                </div>
-        </section>
+                            <p>
+                                Tranquilidad al máximo nivel.
+                                Ni muy bien, ni muy mal, ni muy...nada.
+                            </p>
+                        </div>
+                        <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
+                        <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672773/Hogwarts_gd0etk.jpg"
+                            alt="Destino 6">
+                        <div class="cardContent">
+                            <div class="cardHeader">
+                                <h3>Hogwarts</h3>
+                            </div>
+                            <p>
+                                Destino estudiantil, compatible con programa de becas Erasmus.
+                            </p>
+                        </div>
+                        <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
+                        <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672839/Rivendel_i5m5xf.jpg"
+                            alt="Destino 7">
+                        <div class="cardContent">
+                            <div class="cardHeader">
+                                <h3>Rivendel</h3>
+                            </div>
+                            <p>
+                                Tranquilidad y naturaleza al sudeste de la Comarca.
+                                Destino predilecto para despedidas de solter@.
+                            </p>
+                        </div>
+                        <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
+                        <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="card">
+                        <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1743501947/cld-sample-2.jpg"
+                            alt="Destino 8">
+                        <div class="cardContent">
+                            <div class="cardHeader">
+                                <h3>Aquí cerquita</h3>
+                            </div>
+                            <p>
+                                Pues que te voy a decir que no sepas.
+                                Casi siempre lo bueno está a la mano.
+                            </p>
+                        </div>
+                        <button class="cardButton"><i class="fa-solid fa-plus"></i></button>
+                        <button class="cardButton"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
-    
-       
-        
-        <footer class="TopFooter">
-            <div class="social-links">
-             <a href="https://yotube.com" class="link" target="_blank">
+
+
+
+    <footer class="TopFooter">
+        <div class="social-links">
+            <a href="https://yotube.com" class="link" target="_blank">
                 <i class="fab fa-youtube socialIcon"></i>
-            <span></span>
-              </a>
-               <a href="https://instagram.com" class="link" target="_blank">
+                <span></span>
+            </a>
+            <a href="https://instagram.com" class="link" target="_blank">
                 <i class="fab fa-instagram socialIcon"></i>
-            <span></span>
+                <span></span>
             </a>
             <a href="https://github.com" class="link" target="_blank" aria-label="GitHub">
-      <i class="fab fa-github socialIcon"></i>
-    </a>
-    <a href="https://www.wikipedia.org" class="link" target="_blank" aria-label="Wikipedia">
-      <i class="fab fa-wikipedia-w socialIcon"></i>
-    </a>
-    </div>
-    <div class="emailPublicList">
-        <input type="checkbox" id="emailCheckID" class="emailCheck" >
-        <label for="emailCheckID" class="emailIconLabel">
-    <i class="fas fa-envelope email-icon"></i>
-    </label>
-    <form action="#" method="POST" class="emailForm">
-<input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-<button type="submit">Enviar</button>        
-</form>
-</div>
-             <div class="copyright">
-                &copy; 2025 Happy Travel <br>Todos los derechos reservados.</br>
-            </div>
-                
-            </footer>
+                <i class="fab fa-github socialIcon"></i>
+            </a>
+            <a href="https://www.wikipedia.org" class="link" target="_blank" aria-label="Wikipedia">
+                <i class="fab fa-wikipedia-w socialIcon"></i>
+            </a>
+        </div>
+        <div class="emailPublicList">
+            <input type="checkbox" id="emailCheckID" class="emailCheck">
+            <label for="emailCheckID" class="emailIconLabel">
+                <i class="fas fa-envelope email-icon"></i>
+            </label>
+            <form action="#" method="POST" class="emailForm">
+                <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Happy Travel <br>Todos los derechos reservados.</br>
+        </div>
 
-            <div class ="credit">Powered by <b>Mike</b></div>
-            
+    </footer>
+
+    <div class="credit">Powered by <b>Mike</b></div>
+
 </body>
+
 </html>

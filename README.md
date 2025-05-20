@@ -33,13 +33,14 @@ All the info is fake; not serious, and the destinies too. But the code is real. 
 ## Stacks ⚙️
 
 -HTML 5
+
 -CSS 3
 
 # How to install the project 👩‍💻 
 
 1. Open your git bash terminal and write this:
 
-    git clone
+    git clone https://github.com/Miguelean1/HappyTrails.git
    
 2. Open the files on Visual Studio Code
    
