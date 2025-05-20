@@ -169,7 +169,11 @@ h2 {
 
 }
 .cardContent{
-padding: 20px;
+    position: relative;
+    padding: 20px;
+    bottom: 16px;   
+    right: 16px;
+    
 }
 .cardHeader {
     display:flex;
@@ -184,16 +188,25 @@ padding: 20px;
 
 .cardButton{
     display: flex;
-    background-color: rgb(194, 165, 165);;
+    position: absolute;
+    background-color: transparent;
     border: none;
     width: 30px;
     height: 30px;
     cursor: pointer;
+    align-items: center;
     font-size: 16px;
-    align-content: center;
+    bottom: 16px;   
+    right: 16px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;    
+    
 }
-.cardButton:hover {
+.card :hover {
 background-color: #d8b9b9;
+opacity: 1;
+pointer-events: auto;
 }
 
 
@@ -203,9 +216,6 @@ background-color: #d8b9b9;
     line-height: 1.5;
     color:#333;
 }
-
-
-
 .TopFooter {
     display: flex;
     flex-direction: column;
@@ -313,8 +323,3 @@ input {
     color: grey;
     background: linear-gradient(bisque, rgb(194, 165, 165));
 }
-
-
-
-
- 
