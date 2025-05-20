@@ -36,7 +36,72 @@
                     de organización de viajes. Elige destino, forma de acceso, época del año...si tú no 
                     tienes límites, no somos nosotros quiénes vayamos a ponértelos.
             </p>
-            <a href="#" class= "mainButton">Organiza tu viaje</a>
+            <input type="checkbox" id="searchFormToggle" class ="formToggle">
+            <label for="searchFormToggle" class ="mainButton">Planifica tu aventura</label>
+                <div class="searchFormContainer">
+                <form action="#" method="POST" class="searchForm">
+                <h3>Planifica tu aventura</h3>
+                <div class="formGroup">
+                <label for="destination">Destino:</label>
+                <input type="text" id="destination" name="destination" placeholder="=¿A dónde quieres ir?" required>
+                </div>
+                <div class="formGroup">
+                    <label for="dates">Fechas:</label>
+                     <div class="dateInputs">
+                <input type="date" id="startDate" name="startDate" required>
+                <span>hasta</span>
+                <input type="date" id="endDate" name="endDate" required>
+            </div>
+        </div>
+
+             <div class="formGroup">
+            <label for="travelers">Viajeros:</label>
+            <select id="travelers" name="travelers" required>
+                <option value="" disabled selected>Selecciona</option>
+                <option value="1">1 persona</option>
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="4">4 personas</option>
+                <option value="5+">5 o más personas</option>
+            </select>
+        </div>
+        
+        <div class="formGroup">
+            <label for="transport">Transporte:</label>
+            <div class="transportOptions">
+
+                <input type="radio" id="plane" name="transport" value="plane">
+                <label for="plane"><i class="fa-solid fa-plane"></i> Avión</label>
+                
+                <input type="radio" id="train" name="transport" value="train">
+                <label for="train"><i class="fa-solid fa-train"></i> Tren</label>
+                
+                <input type="radio" id="car" name="transport" value="car">
+                <label for="car"><i class="fa-solid fa-car"></i> Coche</label>
+                
+                <input type="radio" id="boat" name="transport" value="boat">
+                <label for="boat"><i class="fa-solid fa-ship"></i> Barco</label>
+
+                <input type="radio" id="dragon" name="transport" value="dragon">
+                <label for="dragon"><i class="fa-solid fa-dragon"></i> Dragón</label>
+
+                <input type="radio" id="broom" name="transport" value="broom">
+                <label for="broom"><i class="fa-solid fa-broom"></i> Escoba voladora</label>
+
+                <input type="radio" id="port" name="transport" value="port">
+                <label for="port"><i class="fa-solid fa-fire-flame-curved"></i></i> Teletransporte</label>
+
+            </div>
+        </div>
+
+        <div class="formActions">
+            <button type="submit" class="submitButton">Buscar opciones</button>
+            <label for="searchFormToggle" class="cancelButton">Cancelar</label>
+            </div>
+            </form>
+            </div>
+
+
             <div class="cardContainer">
                 <div class="card">
                     <img src="https://res.cloudinary.com/dhhxrrgut/image/upload/v1747672316/cielo_liyyki.jpg" alt="Destino 1">
@@ -184,7 +249,7 @@
 </form>
 </div>
              <div class="copyright">
-                &copy; 2025 Happy Trips <br>Todos los derechos reservados.</br>
+                &copy; 2025 Happy Travel <br>Todos los derechos reservados.</br>
             </div>
                 
             </footer>
